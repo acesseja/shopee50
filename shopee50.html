@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Smart TV 50" Crystal UHD 4K | Oferta Exclusiva | Shopee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --shopee-orange: #ee4d2d;
+            --shopee-orange-hover: #e7320d;
+            --shopee-background: #f5f5f5;
+            --shopee-text: #212121;
+            --shopee-gray: #757575;
+            --shopee-light-gray: #9e9e9e;
+            --shopee-white: #ffffff;
+            --shopee-blue: #05a5f9;
+            --shopee-green: #26aa5b;
+            --shopee-border: #e8e8e8;
+            --shopee-rating: #ffc600;
+            --shopee-highlight: #fff4f2;
+            --samsung-blue: #1428a0;
+        }
+        
+        body {
+            background-color: var(--shopee-background);
+            color: var(--shopee-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(to right, var(--shopee-orange), #ff7337);
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 42px;
+            filter: brightness(0) invert(1);
+        }
+        
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: var(--shopee-white);
+            border-radius: 6px;
+            overflow: hidden;
+            flex: 0 1 600px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .search-bar input {
+            flex: 1;
+            padding: 12px 16px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
+        
+        .search-bar button {
+            background: var(--shopee-orange);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .search-bar button:hover {
+            background: var(--shopee-orange-hover);
+        }
+        
+        .user-actions {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .user-actions a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 13px;
+            transition: opacity 0.3s;
+        }
+        
+        .user-actions a:hover {
+            opacity: 0.9;
+        }
+        
+        .user-actions i {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+        
+        .cart-count {
+            background: white;
+            color: var(--shopee-orange);
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            position: absolute;
+            top: -5px;
+            right: -5px;
+        }
+        
+        .cart-wrapper {
+            position: relative;
+        }
+        
+        /* Promo Banner */
+        .promo-banner {
+            background: linear-gradient(to right, #ff6633, #ff9966);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .promo-banner i {
+            margin-right: 8px;
+        }
+        
+        /* Product Section */
+        .product-section {
+            display: flex;
+            gap: 30px;
+            margin: 25px 0;
+            background: var(--shopee-white);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+        }
+        
+        .product-gallery {
+            flex: 1;
+            max-width: 500px;
+        }
+        
+        .main-image {
+            width: 100%;
+            height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            background: #f9f9f9;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        
+        .main-image img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            transition: transform 0.3s;
+        }
+        
+        .main-image:hover img {
+            transform: scale(1.03);
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--samsung-blue);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .thumbnail-container {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            border: 2px solid transparent;
+            border-radius: 6px;
+            overflow: hidden;
+            cursor: pointer;
+            background: #f9f9f9;
+            transition: all 0.3s;
+        }
+        
+        .thumbnail:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .thumbnail.active {
+            border-color: var(--samsung-blue);
+        }
+        
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            flex: 1;
+            padding: 0 10px;
+        }
+        
+        .product-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--shopee-text);
+            line-height: 1.4;
+        }
+        
+        .product-subtitle {
+            font-size: 16px;
+            color: var(--shopee-gray);
+            margin-bottom: 15px;
+        }
+        
+        .product-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--shopee-border);
+        }
+        
+        .rating-stars {
+            color: var(--shopee-rating);
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        
+        .rating-count {
+            color: var(--shopee-gray);
+            font-size: 14px;
+            margin-right: 15px;
+        }
+        
+        .sold-count {
+            color: var(--shopee-gray);
+            font-size: 14px;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        .sold-count::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 14px;
+            width: 1px;
+            background: var(--shopee-border);
+        }
+        
+        .price-container {
+            background: var(--shopee-highlight);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        
+        .price-label {
+            font-size: 14px;
+            color: var(--shopee-gray);
+            margin-bottom: 5px;
+        }
+        
+        .current-price {
+            font-size: 36px;
+            font-weight: 600;
+            color: var(--shopee-orange);
+            display: flex;
+            align-items: center;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: var(--shopee-gray);
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        
+        .discount-badge {
+            background: var(--shopee-orange);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 15px;
+        }
+        
+        .economy-badge {
+            background: var(--shopee-green);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        .promotion {
+            color: var(--shopee-orange);
+            font-size: 14px;
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .promotion i {
+            margin-right: 8px;
+        }
+        
+        .countdown {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            color: var(--shopee-orange);
+            font-weight: 500;
+        }
+        
+        .countdown-box {
+            background: var(--shopee-orange);
+            color: white;
+            padding: 5px;
+            border-radius: 4px;
+            margin: 0 5px;
+            min-width: 30px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .shipping-info {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            color: var(--shopee-gray);
+            font-size: 14px;
+        }
+        
+        .shipping-info i {
+            margin-right: 10px;
+            color: var(--shopee-blue);
+            font-size: 18px;
+        }
+        
+        .quantity-selector {
+            display: flex;
+            align-items: center;
+            margin: 25px 0;
+        }
+        
+        .quantity-label {
+            margin-right: 15px;
+            font-weight: 500;
+        }
+        
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            border: 1px solid var(--shopee-border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .quantity-btn {
+            width: 38px;
+            height: 38px;
+            background: #f9f9f9;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .quantity-btn:hover {
+            background: #eeeeee;
+        }
+        
+        .quantity-input {
+            width: 60px;
+            height: 38px;
+            text-align: center;
+            border: none;
+            border-left: 1px solid var(--shopee-border);
+            border-right: 1px solid var(--shopee-border);
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        .stock-info {
+            margin-left: 15px;
+            color: var(--shopee-green);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .add-cart-btn {
+            flex: 1;
+            padding: 15px 20px;
+            background: rgba(238, 77, 45, 0.1);
+            color: var(--shopee-orange);
+            border: 1px solid var(--shopee-orange);
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s;
+            font-size: 16px;
+        }
+        
+        .add-cart-btn:hover {
+            background: rgba(238, 77, 45, 0.2);
+        }
+        
+        .buy-now-btn {
+            flex: 1;
+            padding: 15px 20px;
+            background: var(--shopee-orange);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: background 0.3s;
+            font-size: 16px;
+        }
+        
+        .buy-now-btn:hover {
+            background: var(--shopee-orange-hover);
+        }
+        
+        .secure-checkout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            color: var(--shopee-gray);
+            font-size: 13px;
+        }
+        
+        .secure-checkout i {
+            color: var(--shopee-green);
+            margin-right: 8px;
+        }
+        
+        /* Features Section */
+        .features-section {
+            background: var(--shopee-white);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--shopee-border);
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-title i {
+            margin-right: 10px;
+            color: var(--samsung-blue);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .feature-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f9f9f9;
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(to right, var(--samsung-blue), #2c3ecc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        .feature-content h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: var(--shopee-text);
+        }
+        
+        .feature-content p {
+            font-size: 14px;
+            color: var(--shopee-gray);
+            line-height: 1.5;
+        }
+        
+        /* Specifications Section */
+        .specs-section {
+            background: var(--shopee-white);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+        }
+        
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .specs-table tr {
+            border-bottom: 1px solid var(--shopee-border);
+        }
+        
+        .specs-table tr:last-child {
+            border-bottom: none;
+        }
+        
+        .specs-table td {
+            padding: 15px 0;
+        }
+        
+        .specs-table td:first-child {
+            width: 220px;
+            color: var(--shopee-gray);
+            font-weight: 500;
+        }
+        
+        /* Reviews Section */
+        .reviews-section {
+            background: var(--shopee-white);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+        }
+        
+        .review-summary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 25px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+        
+        .average-rating {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--shopee-orange);
+            line-height: 1;
+        }
+        
+        .review-stars {
+            color: var(--shopee-rating);
+            font-size: 24px;
+            margin: 15px 0;
+            letter-spacing: 2px;
+        }
+        
+        .review-count {
+            color: var(--shopee-gray);
+            font-size: 15px;
+        }
+        
+        .review-card {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--shopee-border);
+        }
+        
+        .review-card:last-child {
+            border-bottom: none;
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .reviewer-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            color: var(--shopee-gray);
+            font-weight: 600;
+        }
+        
+        .reviewer-name {
+            font-weight: 500;
+            margin-right: 10px;
+        }
+        
+        .review-date {
+            color: var(--shopee-gray);
+            font-size: 14px;
+        }
+        
+        .review-content {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .review-images {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .review-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 6px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .review-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            background: var(--shopee-white);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--shopee-border);
+            padding-bottom: 20px;
+        }
+        
+        .faq-item:last-child {
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--shopee-text);
+            display: flex;
+            align-items: center;
+        }
+        
+        .faq-question i {
+            color: var(--samsung-blue);
+            margin-right: 10px;
+        }
+        
+        .faq-answer {
+            color: var(--shopee-gray);
+            line-height: 1.6;
+            padding-left: 28px;
+        }
+        
+        /* Guarantee Section */
+        .guarantee-section {
+            background: linear-gradient(to right, #26aa5b, #38c979);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+        }
+        
+        .guarantee-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .guarantee-icon {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        
+        .guarantee-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        
+        .guarantee-desc {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--shopee-white);
+            padding: 40px 0;
+            margin-top: 30px;
+            border-top: 1px solid var(--shopee-border);
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer-logo img {
+            height: 35px;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .footer-links a {
+            color: var(--shopee-gray);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--shopee-orange);
+        }
+        
+        .copyright {
+            color: var(--shopee-gray);
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .product-section {
+                flex-direction: column;
+            }
+            
+            .product-gallery {
+                max-width: 100%;
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+            
+            .guarantee-section {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-wrap: wrap;
+            }
+            
+            .search-bar {
+                order: 3;
+                flex: 0 0 100%;
+                margin-top: 15px;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .footer-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .main-image {
+                height: 320px;
+            }
+        }
+        
+        /* Animation */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        .payment-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            color: var(--shopee-gray);
+        }
+
+        .payment-info strong {
+            color: var(--shopee-orange);
+        }
+        
+        .samsung-badge {
+            background: var(--samsung-blue);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="https://logodownload.org/wp-content/uploads/2021/03/shopee-logo-0.png" alt="Shopee Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar produtos, marcas e muito mais...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-actions">
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Perfil</span>
+                </a>
+                <a href="#">
+                    <i class="fas fa-gift"></i>
+                    <span>Ofertas</span>
+                </a>
+                <a href="#" class="cart-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Carrinho</span>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Promo Banner -->
+    <div class="promo-banner">
+        <div class="container">
+            <i class="fas fa-bolt"></i> FRETE GRÁTIS para todo Brasil - Promoção por tempo limitado!
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Product Section -->
+        <section class="product-section">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <span class="product-badge">DESTAQUE</span>
+                    <img src="https://down-br.img.susercontent.com/file/sg-11134201-824jg-mea8l9mp1ywyc3.webp" alt="Samsung Smart TV 50" id="main-image">
+                </div>
+                <div class="thumbnail-container">
+                    <div class="thumbnail active" data-image="https://down-br.img.susercontent.com/file/sg-11134201-824jg-mea8l9mp1ywyc3.webp">
+                        <img src="https://down-br.img.susercontent.com/file/sg-11134201-824jg-mea8l9mp1ywyc3.webp" alt="Samsung Smart TV 50 1">
+                    </div>
+                    <div class="thumbnail" data-image="https://down-br.img.susercontent.com/file/sg-11134201-824go-mea8l9h4jegy65.webp">
+                        <img src="https://down-br.img.susercontent.com/file/sg-11134201-824go-mea8l9h4jegy65.webp" alt="Samsung Smart TV 50 2">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <h1 class="product-title">Samsung Smart TV 50" Crystal UHD 4K U8100F 2025</h1>
+                <p class="product-subtitle">Smart TV com Xbox Cloud Gaming, Canais Gratuitos, Alexa integrada e Crystal Processor 4K</p>
+                
+                <div class="product-rating">
+                    <div class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="rating-count">4.8 (842 avaliações)</span>
+                    <span class="sold-count">2.5k+ vendidos</span>
+                </div>
+                
+                <div class="price-container">
+                    <span class="price-label">Preço especial:</span>
+                    <div class="current-price">
+                        R$2.099,00
+                        <span class="original-price">R$2.599,00</span>
+                        <span class="discount-badge">19% OFF</span>
+                    </div>
+                    <span class="economy-badge">Economize R$500,00 hoje!</span>
+                    
+                    <div class="promotion">
+                        <i class="fas fa-bolt"></i> Promoção válida apenas hoje!
+                    </div>
+                    
+                    <div class="payment-info">
+                        <p><strong>Entrada de R$419,00 via PIX</strong></p>
+                        <p>Em até 10x de R$209,90 sem juros no cartão</p>
+                        <p>Ou R$1.994,05 à vista no PIX (5% de desconto)</p>
+                    </div>
+                    
+                    <div class="countdown">
+                        <span>Oferta termina em:</span>
+                        <div class="countdown-box">02</div>
+                        <span>:</span>
+                        <div class="countdown-box">45</div>
+                        <span>:</span>
+                        <div class="countdown-box">18</div>
+                    </div>
+                </div>
+                
+                <div class="shipping-info">
+                    <i class="fas fa-truck"></i>
+                    <span>Frete grátis para todo o Brasil - Entrega em até 7 dias úteis</span>
+                </div>
+                
+                <div class="quantity-selector">
+                    <span class="quantity-label">Quantidade:</span>
+                    <div class="quantity-control">
+                        <button class="quantity-btn" id="decrease">-</button>
+                        <input type="text" class="quantity-input" value="1" id="quantity">
+                        <button class="quantity-btn" id="increase">+</button>
+                    </div>
+                    <span class="stock-info">112 em estoque</span>
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="add-cart-btn">
+                        <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+                    </button>
+                    <a href="https://go.disruptybr.com.br/mewmn" class="buy-now-btn pulse">
+                        <i class="fas fa-bolt"></i> Comprar agora
+                    </a>
+                </div>
+                
+                <div class="secure-checkout">
+                    <i class="fas fa-shield-alt"></i> Compra segura e garantida - Seus dados estão protegidos
+                </div>
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="features-section">
+            <h2 class="section-title"><i class="fas fa-star"></i> Por que escolher a Samsung Smart TV 50" Crystal UHD 4K?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Crystal UHD 4K <span class="samsung-badge">EXCLUSIVO</span></h3>
+                        <p>Resolução 4K com tecnologia Crystal Display que oferece cores vibrantes e imagens ultra nítidas com HDR</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Xbox Cloud Gaming</h3>
+                        <p>Acesso direto aos jogos do Xbox Game Pass sem necessidade de console - jogue diretamente na sua TV</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Alexa Integrada</h3>
+                        <p>Controle sua TV com comandos de voz através da Alexa integrada - mude de canal, ajuste volume e muito mais</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Smart Hub Completo</h3>
+                        <p>Sistema operacional Tizen com acesso a todos os aplicativos de streaming em uma interface intuitiva e fácil de usar</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Canais Gratuitos</h3>
+                        <p>Acesso a mais de 200 canais gratuitos através do Samsung TV Plus - notícias, filmes, esportes e entretenimento</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Crystal Processor 4K</h3>
+                        <p>Processador que otimiza conteúdo para qualidade próxima ao 4K, melhorando cor, contraste e clareza</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Specifications Section -->
+        <section class="specs-section">
+            <h2 class="section-title"><i class="fas fa-info-circle"></i> Especificações Técnicas</h2>
+            <table class="specs-table">
+                <tr>
+                    <td>Marca</td>
+                    <td>Samsung</td>
+                </tr>
+                <tr>
+                    <td>Modelo</td>
+                    <td>U8100F Crystal UHD 4K</td>
+                </tr>
+                <tr>
+                    <td>Tamanho da Tela</td>
+                    <td>50 Polegadas</td>
+                </tr>
+                <tr>
+                    <td>Resolução</td>
+                    <td>4K Ultra HD (3840 x 2160)</td>
+                </tr>
+                <tr>
+                    <td>Tecnologia</td>
+                    <td>Crystal Display, HDR</td>
+                </tr>
+                <tr>
+                    <td>Sistema Operacional</td>
+                    <td>Tizen</td>
+                </tr>
+                <tr>
+                    <td>Processador</td>
+                    <td>Crystal Processor 4K</td>
+                </tr>
+                <tr>
+                    <td>Recursos de Games</td>
+                    <td>Xbox Cloud Gaming, Game Mode</td>
+                </tr>
+                <tr>
+                    <td>Assistente de Voz</td>
+                    <td>Alexa Integrada</td>
+                </tr>
+                <tr>
+                    <td>Conexões</td>
+                    <td>3x HDMI, 2x USB, Wi-Fi, Ethernet, RF, Saída de Áudio Óptica</td>
+                </tr>
+                <tr>
+                    <td>Consumo de Energia</td>
+                    <td>65W</td>
+                </tr>
+                <tr>
+                    <td>Voltagem</td>
+                    <td>Bivolt 110V/220V</td>
+                </tr>
+                <tr>
+                    <td>Dimensões</td>
+                    <td>112.3 x 65.4 x 8.9 cm (CxLxA)</td>
+                </tr>
+                <tr>
+                    <td>Peso</td>
+                    <td>12.3kg</td>
+                </tr>
+                <tr>
+                    <td>Garantia</td>
+                    <td>12 meses contra defeitos de fabricação</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Reviews Section -->
+        <section class="reviews-section">
+            <h2 class="section-title"><i class="fas fa-comments"></i> O que nossos clientes dizem</h2>
+            
+            <div class="review-summary">
+                <div class="average-rating">4.8/5</div>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="review-count">Baseado em 842 avaliações verificadas</div>
+            </div>
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-avatar">R</div>
+                    <span class="reviewer-name">Ricardo Almeida</span>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="review-date">· 12/09/2023</span>
+                </div>
+                <div class="review-content">
+                    <p>Imagem espetacular! A qualidade 4K da Samsung é incomparável. A função de jogar sem console com o Xbox Game Pass é revolucionária. Recomendo muito!</p>
+                </div>
+                <div class="review-images">
+                    <div class="review-image">
+                        <img src="https://down-br.img.susercontent.com/file/sg-11134201-824jg-mea8l9mp1ywyc3.webp" alt="Avaliação 1">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-avatar">J</div>
+                    <span class="reviewer-name">Juliana Costa</span>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="review-date">· 05/09/2023</span>
+                </div>
+                <div class="review-content">
+                    <p>Comprei para a sala de estar e todos estão impressionados. A Alexa integrada facilita muito o uso para toda a família. O sistema de canais gratuitos é um bônus incrível!</p>
+                </div>
+            </div>
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-avatar">M</div>
+                    <span class="reviewer-name">Marcos Oliveira</span>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <span class="review-date">· 28/08/2023</span>
+                </div>
+                <div class="review-content">
+                    <p>Qualidade de imagem excelente e o som é muito bom. A única observação é que o suporte de parede é vendido separadamente. De resto, produto excelente pela relação custo-benefício.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2 class="section-title"><i class="fas fa-question-circle"></i> Perguntas Frequentes</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fas fa-question"></i> A TV já vem com suporte de parede?
+                </div>
+                <div class="faq-answer">
+                    Não, esta TV vem com suporte para base. O suporte de parede (haste VESA) deve ser adquirido separadamente, compatível com o padrão VESA 200x200mm.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fas fa-question"></i> Preciso ter um Xbox para usar o Xbox Cloud Gaming?
+                </div>
+                <div class="faq-answer">
+                    Não! O Xbox Cloud Gaming permite jogar diretamente na TV sem necessidade de console. Basta ter uma assinatura do Xbox Game Pass Ultimate.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fas fa-question"></i> A Alexa funciona sem dispositivos extras?
+                </div>
+                <div class="faq-answer">
+                    Sim! A Alexa já vem integrada na TV. Basta conectar à internet e configurar sua conta Amazon para começar a usar comandos de voz.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fas fa-question"></i> Quais aplicativos de streaming estão disponíveis?
+                </div>
+                <div class="faq-answer">
+                    A Samsung Smart TV possui todos os aplicativos principais: Netflix, YouTube, HBO Max, Disney+, Prime Video, Globoplay, Spotify e muitos outros.
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fas fa-question"></i> Como funciona a garantia?
+                </div>
+                <div class="faq-answer">
+                    Oferecemos 12 meses de garantia contra defeitos de fabricação. Caso tenha qualquer problema, basta entrar em contato conosco que resolveremos imediatamente.
+                </div>
+            </div>
+        </section>
+        
+        <!-- Guarantee Section -->
+        <section class="guarantee-section">
+            <div class="guarantee-item">
+                <div class="guarantee-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <div class="guarantee-title">Entrega Rápida</div>
+                <div class="guarantee-desc">Receba em casa em até 7 dias</div>
+            </div>
+            
+            <div class="guarantee-item">
+                <div class="guarantee-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="guarantee-title">Compra Segura</div>
+                <div class="guarantee-desc">Seus dados protegidos</div>
+            </div>
+            
+            <div class="guarantee-item">
+                <div class="guarantee-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <div class="guarantee-title">Garantia Real</div>
+                <div class="guarantee-desc">12 meses de garantia</div>
+            </div>
+            
+            <div class="guarantee-item">
+                <div class="guarantee-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="guarantee-title">Atendimento</div>
+                <div class="guarantee-desc">Suporte 7 dias por semana</div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://logodownload.org/wp-content/uploads/2021/03/shopee-logo-0.png" alt="Shopee Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Politica de privacidade</a>
+                    <a href="#">Termos de uso</a>
+                    <a href="#">Dúvidas frequentes</a>
+                    <a href="#">Fale conosco</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Shopee. Todos os direitos reservados. CNPJ: 00.000.000/0000-00
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Thumbnail click event
+        document.querySelectorAll('.thumbnail').forEach(thumb => {
+            thumb.addEventListener('click', function() {
+                // Update main image
+                const newImage = this.getAttribute('data-image');
+                document.getElementById('main-image').src = newImage;
+                
+                // Update active thumbnail
+                document.querySelectorAll('.thumbnail').forEach(t => {
+                    t.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+        
+        // Quantity control
+        document.getElementById('increase').addEventListener('click', function() {
+            const quantityInput = document.getElementById('quantity');
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+        
+        document.getElementById('decrease').addEventListener('click', function() {
+            const quantityInput = document.getElementById('quantity');
+            if (parseInt(quantityInput.value) > 1) {
+                quantityInput.value = parseInt(quantityInput.value) - 1;
+            }
+        });
+        
+        // Add to cart button
+        document.querySelector('.add-cart-btn').addEventListener('click', function() {
+            const quantity = document.getElementById('quantity').value;
+            const cartCount = document.querySelector('.cart-count');
+            cartCount.textContent = parseInt(cartCount.textContent) + parseInt(quantity);
+            
+            // Animation
+            this.innerHTML = '<i class="fas fa-check"></i> Adicionado ao carrinho!';
+            this.style.background = '#26aa5b';
+            this.style.borderColor = '#26aa5b';
+            this.style.color = 'white';
+            
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-shopping-cart"></i> Adicionar ao carrinho';
+                this.style.background = '';
+                this.style.borderColor = '';
+                this.style.color = '';
+            }, 2000);
+        });
+        
+        // Countdown timer
+        function updateCountdown() {
+            const hours = document.querySelectorAll('.countdown-box')[0];
+            const minutes = document.querySelectorAll('.countdown-box')[1];
+            const seconds = document.querySelectorAll('.countdown-box')[2];
+            
+            let sec = parseInt(seconds.textContent);
+            let min = parseInt(minutes.textContent);
+            let hr = parseInt(hours.textContent);
+            
+            sec--;
+            
+            if (sec < 0) {
+                sec = 59;
+                min--;
+                
+                if (min < 0) {
+                    min = 59;
+                    hr--;
+                    
+                    if (hr < 0) {
+                        hr = 0;
+                        min = 0;
+                        sec = 0;
+                        clearInterval(countdownInterval);
+                    }
+                }
+            }
+            
+            hours.textContent = hr.toString().padStart(2, '0');
+            minutes.textContent = min.toString().padStart(2, '0');
+            seconds.textContent = sec.toString().padStart(2, '0');
+        }
+        
+        const countdownInterval = setInterval(updateCountdown, 1000);
+        
+        // Animation on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.feature-card, .review-card, .faq-item');
+            
+            elements.forEach(element => {
+                const position = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if (position < screenPosition) {
+                    element.style.opacity = 1;
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+        
+        // Set initial state for animation
+        document.querySelectorAll('.feature-card, .review-card, .faq-item').forEach(element => {
+            element.style.opacity = 0;
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+        
+        window.addEventListener('scroll', animateOnScroll);
+        // Initial call to check elements already in view
+        animateOnScroll();
+    </script>
+</body>
+</html>
